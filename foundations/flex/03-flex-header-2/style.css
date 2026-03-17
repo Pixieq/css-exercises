@@ -8,10 +8,36 @@ body {
   font-family: Besley, serif;
 }
 
+
+.container{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.container1{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  
+}
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ padding: 8px;
+ 
 }
 
 .profile-image {
@@ -36,6 +62,7 @@ button {
   color: white;
   padding: 8px 24px;
 }
+
 
 a {
   /* this removes the line under our links */
